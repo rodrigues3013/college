@@ -1,0 +1,19 @@
+fun main() {
+    CinemaSystem.seedData() // Carrega os dados iniciais
+
+    while (true) {
+        println("\n--- BEM-VINDO AO CINEMA ---")
+        println("1. Login Cliente")
+        println("2. Login Admin")
+        println("3. Sair")
+
+        when (readLine()) {
+            "1" -> println("Chama as funções do Membro A")
+            "2" -> {
+                // Membro C: Valida o login admin/Admin123 aqui
+                println("Chama as funções do Membro B e C")
+            }
+            "3" -> break
+        }
+    }
+}
