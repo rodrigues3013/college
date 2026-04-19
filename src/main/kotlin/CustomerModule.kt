@@ -112,7 +112,7 @@ object CustomerModule {
     // Task 3: Formatação do Ingresso (Conforme Imagem 4)
     private fun printTicket(s: Screening, seats: List<Int>, price: Double) {
         println("\n*********************************")
-        println("CINEMA GEMINI")
+        println("CINEMA MARCOS")
         println("Filme: ${s.film.title}")
         println("Data: ${s.date}")
         println("Hora: ${s.startTime}")
