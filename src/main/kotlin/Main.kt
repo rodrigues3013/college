@@ -4,7 +4,7 @@ fun main() {
 
     while (true) {
         println("\n==================================")
-        println("       SISTEMA CINEMA GEMINI      ")
+        println("       SISTEMA CINEMA MARCOS      ")
         println("==================================")
         println("1. Área do Cliente (Comprar Ingressos)")
         println("2. Área do Administrador (Gestão)")
