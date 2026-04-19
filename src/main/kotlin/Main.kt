@@ -1,6 +1,6 @@
 fun main() {
     // 1. Inicializa os dados (Filmes e Sessões)
-    CinemaSystem.seedData()
+    CinemaSystem.seedData()''
 
     while (true) {
         println("\n==================================")
