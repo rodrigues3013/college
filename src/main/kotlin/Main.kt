@@ -39,7 +39,7 @@ fun main() {
     }
 }
 
-// Função auxiliar para organizar o menu do Admin (Mistura Membro B e C)
+// Função auxiliar para organizar o menu do Admin ()
 fun mostrarMenuAdmin() {
     while (true) {
         println("\n--- PAINEL DE CONTROLE ---")

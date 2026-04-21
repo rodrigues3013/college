@@ -27,7 +27,7 @@ object SpecialOfferManager {
         return user
     }
 
-    // Task 8 e 9: Cálculo Automático de Ofertas
+    // Task 8 e 9: Cálculo Automático de 
     fun calculatePrice(screening: Screening, numTickets: Int): Double {
         var pricePerTicket = screening.film.basePrice
 
