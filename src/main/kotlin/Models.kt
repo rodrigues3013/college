@@ -24,7 +24,7 @@ data class Screening(
     var totalTakings: Double = 0.0
 )
 
-// 4. Representa o Usuário (Task 7 Membro C)
+// 4. Representa o Usuário (Task 7 - Membro C)
 data class User(
     val username: String,
     val password: String,

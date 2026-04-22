@@ -63,7 +63,7 @@ object AdminModule {
         print("Horário (HH:MM): ")
         val time = readLine() ?: "20:00"
         print("É dia de semana? (S/N): ")
-        val isWeekday = readLine()?.uppercase() == "S"
+        val isWeekday = readLine()?.toUpperCase() == "S"
 
         val newScreening = Screening(newFilm, hall, date, time, isWeekday)
         CinemaSystem.screenings.add(newScreening)
